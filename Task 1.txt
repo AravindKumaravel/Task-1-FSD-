@@ -1,0 +1,120 @@
+1) Difference between HTTP1.1 vs HTTP2?
+
+	HTTP stands for hypertext transfer protocol, and it is the basis for almost all web applications. HTTP is the method computers and servers use to request and send information.
+
+What is HTTP/1.1?
+
+	It is the first usable version of HTTP was created in 1997. It went through several stages of development and  this is the first version of HTTP was called HTTP/1.1. This version is still in use on the web.
+
+
+What is HTTP/2?
+	A newerr version of HTTP called HTTP/2 was created. HTTP/2 solves several problems that the creators cannot able to sole in  HTTP/1.1 . In particular, HTTP/2 is much faster and more efficient than HTTP/1.1. One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process.
+
+
+								Difference
+
+Multiplexing:
+
+       HTTP/1.1 can only handle one request per connection at a time, leading to head-of-line blocking issues. HTTP/2, on the other hand, supports multiplexing, allowing multiple requests          and responses to be sent and received on the same connection simultaneously. This significantly improves efficiency, especially for websites with many resources.
+
+
+Binary Protocol: 
+
+	HTTP/2 is a binary protocol, while HTTP/1.1 is text-based. The binary format of HTTP/2 is more efficient and reducing overhead and improving performance.
+
+
+Header Compression:
+ 
+	HTTP/1.1 sends headers in plain text with each request and response, leading to redundant data transfer. HTTP/2 compresses headers, reducing overhead and improving latency.
+
+
+Server Push: 
+
+	HTTP/2 supports server push, where the server can push resources to the client before they are requested. This can reduce the number of round trips needed to load a webpage,improving performance.
+
+
+Prioritization: 
+
+	HTTP/2 allows clients to prioritize requests, specifying which resources are more important. This enables more efficient resource allocation and can improve the perceived performance of a website.
+
+
+
+
+
+					              Object in javascript
+
+
+
+
+Define Object in javascript?
+
+	 An object is a collection of key-value pairs where each key is a unique identifier and each value is any JavaScript data type, including other objects. Objects in JavaScript can be thought of as containers for storing related data and functionality.
+
+
+
+	let details = {
+	name = "Aravind";
+	age = 24;
+	City = "Puduchcherry";
+	course = "Full stack developement";
+	}
+
+	where in this details is an object "name,age,city,course" are the four propertis and also they have theri key-value pairs.
+
+
+
+Internal Representation in javascript?
+
+	The internal representation in javascript in an object an contain a mix of primitive data type such a 	
+	
+	> Numbers
+	> Srtings
+	> Booleans
+	> Null
+	> Undefined
+	> Symbols
+
+ 
+
+	> JavaScript objects are often implemented using hash table. Each property of the object is stored as a key-value pair in the hash table, where the key is the property name and the value is a reference to the property's value or function.
+
+	> We can access properties using dot notation or bracket notation
+
+	let details = {
+	name = "Aravind";
+	age = 24;
+	City = "Puduchcherry";
+	course = "Full stack developement";
+	}
+
+
+	Eg: console.log(details.name);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
